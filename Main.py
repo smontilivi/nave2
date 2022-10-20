@@ -20,13 +20,13 @@ def main():
     
         op = input("Entra una opció: ")
         if op=='d':
-	    pass
+	        nau.moure_dreta()
         elif op=='a':
-            pass
+            nau.moure_esquerre()
         elif op=='w':
-            pass
+            nau.moure_amunt()
         elif op=='s':
-            pass
+            nau.moure_avall()
         elif op=='0':
             sortir=True
             print("Has sortit de l'avió")
